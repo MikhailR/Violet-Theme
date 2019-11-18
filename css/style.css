@@ -1252,6 +1252,7 @@ input[type='radio'] {
   .what-review .wrap {
     position: relative; }
   .what-review__arrow {
+    font-size: 0;
     display: block;
     width: 60px;
     height: 60px;
@@ -1636,6 +1637,7 @@ input[type='radio'] {
   .works-review .wrap {
     position: relative; }
   .works-review__arrow {
+    font-size: 0;
     display: block;
     width: 60px;
     height: 60px;
@@ -1746,6 +1748,7 @@ input[type='radio'] {
       .works-review__socials {
         margin: 15px 0; } }
   .works-review__link {
+    font-size: 0;
     display: inline-block;
     width: 46px;
     height: 46px;

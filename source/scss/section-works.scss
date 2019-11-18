@@ -163,6 +163,7 @@
 	@media (max-width: 768px) { padding-top: 20px;}
 	.wrap { position: relative;}
 	&__arrow {
+		font-size: 0;
 		display: block;
 		width: 60px;
 		height: 60px;
@@ -229,6 +230,7 @@
 		@media (max-width: 576px) { margin: 15px 0;}
 	}
 	&__link {
+		font-size: 0;
 		display: inline-block;
 		width: 46px;
 		height: 46px;

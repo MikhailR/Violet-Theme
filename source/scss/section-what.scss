@@ -168,6 +168,7 @@ input[type='radio'] { display: none;}
 	@media (max-width: 768px) { padding-top: 20px;}
 	.wrap { position: relative;}
 	&__arrow {
+		font-size: 0;
 		display: block;
 		width: 60px;
 		height: 60px;
