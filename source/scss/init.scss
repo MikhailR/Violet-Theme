@@ -1,0 +1,68 @@
+/*Подключение шрифтов*/ 
+@font-face {
+	font-family: 'Raleway';
+	src: url('../fonts/Raleway-Regular.eot');
+	src: local('☺'), url('../fonts/Raleway-Regular.woff') format('woff'), url('../fonts/Raleway-Regular.ttf') format('truetype'), url('../fonts/Raleway-Regular.svg') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Raleway';
+	src: url('../fonts/Raleway-Medium.eot');
+	src: local('☺'), url('../fonts/Raleway-Medium.woff') format('woff'), url('../fonts/Raleway-Medium.ttf') format('truetype'), url('../fonts/Raleway-Medium.svg') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Raleway';
+	src: url('../fonts/Raleway-SemiBold.eot');
+	src: local('☺'), url('../fonts/Raleway-SemiBold.woff') format('woff'), url('../fonts/Raleway-SemiBold.ttf') format('truetype'), url('../fonts/Raleway-SemiBold.svg') format('svg');
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Raleway';
+	src: url('../fonts/Raleway-Bold.eot');
+	src: local('☺'), url('../fonts/Raleway-Bold.woff') format('woff'), url('../fonts/Raleway-Bold.ttf') format('truetype'), url('../fonts/Raleway-Bold.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Monoton';
+	src: url('../fonts/Monoton-Regular.eot');
+	src: local('☺'), url('../fonts/Monoton-Regular.woff') format('woff'), url('../fonts/Monoton-Regular.ttf') format('truetype'), url('../fonts/Monoton-Regular.svg') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+/*-----------------------------------------------------------------------------------------------*/ 
+
+body {
+	width: 100%;
+	background-color: #000;
+	font-family: 'Raleway';
+	font-size: 18.75px;
+	line-height: 33.33px;
+	color: #fff;
+}
+
+.container {
+	min-width: 320px;
+	max-width: 1440px;
+	margin: 0 auto;
+	background-color: #000;
+	position: relative;
+	overflow: hidden;
+}
+
+.wrap {
+	min-width: 320px;
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 0 9px;
+}
+
+.section__title {
+	font-size: 29px;
+	font-weight: 700;
+	@media (max-width: 480px) {	font-size: 24px;}
+}
